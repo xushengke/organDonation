@@ -1,0 +1,141 @@
+body{
+  margin: 0 auto;
+  background: #e3d5da;
+}
+
+#bodycontainer {
+  max-width: 120em;
+  width: 100%;
+  background: #e3d5da;
+  position: absolute;
+  text-align: center;
+}
+
+.hidden{
+  display: none;
+}
+
+#mainHeader {
+  text-align: left;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+  height: 4.75em;
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 33%, rgba(247,247,247,1) 53%, rgba(215,215,215,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 33%,rgba(247,247,247,1) 53%,rgba(215,215,215,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 33%,rgba(247,247,247,1) 53%,rgba(215,215,215,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d7d7d7',GradientType=0 ); /* IE6-9 */
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.2), 0 0.375em 1.25em 0 rgba(0, 0, 0, 0.19);
+}
+
+#headerLogo{
+  margin-left: 1em;
+  width: 10em;
+  margin-top: 1.5em;
+}
+
+
+#main-menu {
+  margin-right: 1em;
+  margin-top: 1em;
+  float: right;
+}
+
+#main-menu ul {
+  list-style: none;
+}
+
+#home {
+  font-size: 1em;
+  color: #cc3366;
+  transition: 0.5s all ease;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+#home:hover{
+  color: grey;
+}
+
+.logincontent{
+  margin: auto;
+  margin-top: 190px;
+  width: 320px;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding-bottom: 20px;
+  color: #cc3366;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+#welcome{
+  padding-top: 20px;
+  font-size: 1.3em;
+}
+
+#loginbutton{
+  border-radius: 1.5625em;
+  padding: 0.4em 2em;
+  color: white;
+  background: #d74450;
+  font-size: 1em;
+}
+
+#loginbutton:hover{
+  cursor: pointer;
+  background: #cc0033;
+}
+
+footer{
+  margin-top: 216px;
+  background: white;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 2.1875em;
+  padding-right: 70px;
+}
+
+footer ul li{
+  display: inline;
+  margin-left: 40px;
+}
+
+footer p{
+  margin-top: 0.9375em;
+  font-family: 'Roboto', sans-serif;
+  color: #d74450;
+}
+
+.social{
+  width: 1.5625em;
+}
+
+#facebook {
+  width: 0.625em;
+}
+
+#footerLogo{
+  margin-top: 3.75em;
+  width: 10em;
+}
+
+#hello{
+  font-weight: 400;
+}
+
+.logincontent a {
+  color: #d74450;
+}
+
+#event1footer{
+  margin-top: 100px;
+  background: white;
+  text-align: center;
+}
